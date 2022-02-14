@@ -1,0 +1,241 @@
+/*body css*/
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+    
+  }
+  
+  .tete img{
+    width: 400px;
+  }
+  
+  /* nav bar + partie dropdown*/
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    li {
+      float: left;
+      display: inline;
+      cursor: pointer;
+    }
+    
+    li a {
+      display: inline-block;
+      color: #ababab;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    samp{
+      color: #00b39b;
+    }
+    li a:hover  {
+      color: #00b39b;
+    }
+    
+    dl{
+        list-style-type: none;
+    }
+
+    dl a {
+        text-decoration: none;
+        color: #ababab ;
+    }
+
+  #testa{
+      color: #00b39b;
+  }
+  
+    /* display nav */
+  
+    .tete{
+      display: flex;
+      justify-content: space-around;
+    }
+  
+  
+    /* first section*/
+  
+  .section1{
+
+      margin-top: 50px;
+      text-align: center;
+  }
+  .section1 h3{
+    text-align: center;
+    margin-left: 40px;
+    color: #00b39b;
+    font-size: 35px;
+  }
+
+  /* second section*/
+  
+    .section2{
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 2em;
+        margin-block-end: 2em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    .section2 p{
+      margin: 0.8em 0;
+      line-height: 1.75;
+      font-weight: 400;
+      padding: 15px;
+    }
+
+  
+  /*third section*/
+  .section3{
+   
+    display: flex;
+    justify-content: space-around;
+   
+  }
+
+  .patient{
+    width: 250px;
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+    border-radius: 10px;
+    height: 400px;
+    padding: 2em 2em 0;
+    transition: all .2s ease 0s;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 1.3em;
+
+  }
+  
+  .doctor{
+    background: #3d83df;
+    color: #fff;
+    text-shadow: none;
+    border-radius: 10px;
+    height: 400px;
+    padding: 2em 2em 0;
+    width: 250px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 1.3em;
+  }
+  
+  .clinic{
+    background: #1b2734;;
+    color: #fff;
+    text-shadow: none;
+    border-radius: 10px;
+    height: 400px;
+    padding: 2em 2em 0;
+    width: 250px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 1.3em;
+  }
+
+
+  h2{
+    color: #00b39b;
+  }
+  footer{
+    font-size: 15px  ;
+    text-align: center;
+  }
+  
+/* section 4 */
+
+
+.bande{
+  background-color:#e1f1ef  ;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1500px;
+  margin-right: 100px;
+ 
+}
+
+
+
+
+.blanche{
+  background-color: white;
+  
+  text-align:center ;
+  margin:20px;
+  margin-top: 30px;
+}
+
+.blanche2{
+  background-color: white;
+ 
+  text-align: center;
+  margin:20px;
+   
+}
+
+.blanche .blanche2{
+display: flex;
+
+justify-content: space-between;
+margin: 20px;
+
+}
+
+.blanchediv{
+  margin: 20px;
+  text-align: center;
+  display: block;
+  justify-self: stretch;
+}
+
+
+
+h4{
+  text-align: center;
+  color: #00b39b;
+}
+
+.crd  .bande{
+  display: flex;
+}
+
+ /* section 6 */
+.idee{
+  text-align: center;
+}
+ .cards{
+   display:flex;
+   flex-wrap: wrap;
+ 
+ }
+
+ .cartediv{
+   display: flex;
+   justify-content: space-between;  
+ }
+
+ .bouton{
+   padding: 10px;
+   background-color: rgb(61, 131, 223);
+   border-radius: 6px;
+   color: white;
+   border:none;
+   margin: 50px;
+   margin-left: 50px;
+   cursor: pointer;
+ }
+.carte{
+  margin: 10px;
+}
+
+
